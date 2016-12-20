@@ -1,9 +1,10 @@
 {
   "name": "angular2-todo",
   "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
-    "lite": "lite-server",
+    "start": "tsc && concurrently \"tsc -w\" \"node server.js\" ",
+    "node": "node",
     "tsc": "tsc",
     "tsc:w": "tsc -w"
 
@@ -23,7 +24,9 @@
     "reflect-metadata": "0.1.8",
     "rxjs": "5.0.0-beta.12",
     "systemjs": "0.19.40",
-    "zone.js": "0.6.26"
+    "zone.js": "0.6.26",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
 
   },
   "main": "main.ts",
@@ -35,7 +38,6 @@
     "concurrently": "3.1.0",
     "lite-server": "2.2.2",
     "typescript": "2.0.0",
-    "tsc": "2.0.0",
     "@types/core-js": "^0.9.34",
     "@types/node": "^6.0.48"
   }
