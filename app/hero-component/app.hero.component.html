@@ -1,0 +1,26 @@
+    <div class="hero">
+
+        <div class="hero__params">
+            <img class="avatar" src="img/avatar.png" alt="Аватар">
+            <h2 class="hero__name">
+                {{hero.name}}
+            </h2>
+            <progress class="progress__hp" value="{{hero.currentHp}}" max="{{hero.hp}}">
+                Текст
+            </progress>
+            <progress class="progress__exp" value="30" max="100">
+                Текст
+            </progress>
+        </div>
+        <div class="hero__statistics">
+            <div class="hero__attack">
+               <span class="hero__statistics-title"> Урон:</span> <span class="hero__attack-number">{{hero.attack}}</span>
+            </div>
+            <div class="hero__level">
+                <span class="hero__statistics-title">Уровень :</span> <span class="hero__level-number">{{hero.level}}</span>
+
+            </div>
+        </div>
+    </div>
+
+

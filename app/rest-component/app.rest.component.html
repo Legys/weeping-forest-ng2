@@ -1,0 +1,13 @@
+<div class="rest__main">
+
+    Отдых
+    <ul class="rest__rests">
+        <li *ngFor='let rest of rests' class="rest__item">
+            <h2 class="rest__title">{{rest.title}}</h2>
+            <img src="{{rest.img}}" alt="">
+            <p class="rest__description">{{rest.description}}</p>
+            <button class="" (click)="heal(hero.hp, rest.multipler)">Heal {{rest.multipler}} HP</button>
+        </li>
+    </ul>
+
+</div>

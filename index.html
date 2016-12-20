@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <base href="/">
+        <meta charset="UTF-8">
+        <title>Weeping Forest</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="img/dark_tree_icon.ico">
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="/app/styles/main.css">
+
+        <script src="node_modules/core-js/client/shim.min.js"></script>
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="node_modules/reflect-metadata/Reflect.js"></script>
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+        <script src="systemjs.config.js"></script>
+        <script>
+            System.import('app').catch(function(err){ console.error(err); });
+        </script>
+    </head>
+
+    <body>
+        <app>Waiting...</app>
+    </body>
+</html>

@@ -1,0 +1,170 @@
+.progress__hp {
+    display: block;
+    color: #acff85;
+    border: 2px solid #ff3a38;
+    background: #2e37ff;
+
+
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 15px;
+    margin-bottom: 7px;
+}
+.progress__exp {
+    display: block;
+    color: #e7ff53;
+    background: #2e37ff;
+    border: 2px solid #ffd811;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 15px;
+    margin-bottom: 15px;
+}
+.progress__hp::-webkit-progress-bar {
+    background: #ffe6e1;
+
+}
+.progress__hp::-webkit-progress-value{
+    /* IE10+ */
+    background-image: -ms-linear-gradient(left, #FFC6C4 0%, #FF7070 30%, #FF5145 70%, #FF2E17 100%);
+
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(left, #FFC6C4 0%, #FF7070 30%, #FF5145 70%, #FF2E17 100%);
+
+    /* Opera */
+    background-image: -o-linear-gradient(left, #FFC6C4 0%, #FF7070 30%, #FF5145 70%, #FF2E17 100%);
+
+    /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FFC6C4), color-stop(30, #FF7070), color-stop(70, #FF5145), color-stop(100, #FF2E17));
+
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(left, #FFC6C4 0%, #FF7070 30%, #FF5145 70%, #FF2E17 100%);
+
+    /* W3C Markup */
+    background-image: linear-gradient(to right, #FFC6C4 0%, #FF7070 30%, #FF5145 70%, #FF2E17 100%);
+}
+.progress__exp::-webkit-progress-bar {
+    background: #fff;
+}
+.progress__exp::-webkit-progress-value{
+    background: #ffee23;
+}
+.hero {
+    box-sizing: content-box;
+    min-width: 300px;
+    margin-left: 25px;
+    padding: 20px;
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+    font: normal 16px/1 Verdana, Geneva, sans-serif;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    letter-spacing: 1px;
+    background: rgba(183, 213, 224, 0.8);
+
+    box-shadow: inset -9px 0px 11px 1px rgb(131, 195, 223);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+.hero__params {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+.hero__name {
+    font: normal 24px/1 Verdana, Geneva, sans-serif;
+
+}
+
+.hero__statistics {
+   /* display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;*/
+
+
+
+}
+.hero__attack, .hero__level {
+    margin-bottom: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hero__attack-number {
+    padding: 10px;
+    background: url(/img/sword.png) no-repeat -1px 4px;
+    background-size: 100%;
+}
+
+.hero__level-number {
+    background: url(/img/star.png) no-repeat -1px;
+    background-size: 100%;
+    padding: 20px;
+
+
+}
+
+
+
+/*
+.hero__level-number {
+    width: 0;
+    height: 0;
+    margin: 50px 0;
+    color: #fc2e5a;
+    position: relative;
+    display: block;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #ffd811;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg) scale(0.3);
+
+
+}
+.hero__level-number:before {
+    height: 0;
+    width: 0;
+    position: absolute;
+    display: block;
+    top: -45px;
+    left: -65px;
+    border-bottom: 80px solid #ffd811;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+}
+.hero__level-number:after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    display: block;
+    top: 3px;
+    left: -105px;
+    color: #fc2e5a;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #ffd811;
+    border-left: 100px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+}*/

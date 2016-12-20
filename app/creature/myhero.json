@@ -1,0 +1,7 @@
+{
+  "name": "Garby",
+  "type": "Hero",
+  "hp": 125,
+  "attack": 25,
+  "currentHp": 95
+}

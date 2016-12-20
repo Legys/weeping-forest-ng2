@@ -1,0 +1,67 @@
+.gameframe__navbar {
+
+    box-sizing: content-box;
+    padding: 25px;
+    margin: auto 25px;
+    border: none;
+    padding: auto;
+    font: normal 16px/1 Verdana, Geneva, sans-serif;
+    color: rgba(255,255,255,1);
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    letter-spacing: 2px;
+    background: rgba(46, 92, 113, 0.89);
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px 3px rgba(0,0,0,0.4) ;
+
+    transform:    skewX(8deg);
+}
+
+.gameframe__navbar:hover {
+    -webkit-box-shadow: 5px 5px 6px 7px rgba(0,0,0,0.4) ;
+    box-shadow: 5px 5px 6px 7px rgba(0,0,0,0.4) ;
+    -webkit-transform:    skewX(-8deg);
+    transform:    skewX(-8deg);
+}
+.gameframe__navbutton {
+     -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+     box-sizing: content-box;
+     margin: auto;
+     padding: 23px;
+     margin-right: 5px;
+     border: none;
+    border-radius: 5px;
+     font: normal 16px/1 Verdana, Geneva, sans-serif;
+     color: rgba(255,255,255,1);
+     -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+     letter-spacing: 2px;
+    /* -webkit-box-shadow: 5px 5px 6px 3px rgba(0,0,0,0.4) ;
+     box-shadow: 5px 5px 6px 3px rgba(0,0,0,0.4) ;*/
+
+     transform:    skewX(8deg);
+    text-decoration: none;
+ }
+
+.gameframe__navbutton:hover {
+    -webkit-box-shadow: 5px 5px 6px 7px rgba(0,0,0,0.4) ;
+    box-shadow: 5px 5px 6px 7px rgba(0,0,0,0.4) ;
+    -webkit-transform:    skewX(-8deg);
+    transform:    skewX(-8deg);
+}
+
+.gameframe__navbutton:active {
+    color: rgba(125,125,125,1);
+    background: rgba(252,252,252,1);
+    -webkit-box-shadow: 5px 5px 6px 3px rgba(0,0,0,0.4) ;
+    box-shadow: 5px 5px 6px 3px rgba(0,0,0,0.4) ;
+    -webkit-transform:    skewX(8deg);
+    transform:    skewX(8deg);
+}
+.gameframe__main {
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
